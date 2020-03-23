@@ -4,7 +4,7 @@ import { Modal, Header, Button, Icon } from 'semantic-ui-react';
 export default function Projects() {
     return (
         <div className="project-section">
-            <Modal style={{border: '2px solid', margin: '2%'}}
+            <Modal style={{border: '2px solid', margin: '2%', width: '30vw'}}
             trigger={<Button>Show Project</Button>} closeIcon>
                 <Modal.Header as="h3">Web Applications: </Modal.Header>
                 <Modal.Content>
