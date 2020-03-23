@@ -36,6 +36,10 @@
  font-size: larger;
 }
 
+.project-section {
+  border: 1px solid;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

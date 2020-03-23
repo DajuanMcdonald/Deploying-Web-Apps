@@ -12,14 +12,14 @@ function App() {
           Dajuan Mcdonald
         <Router>
             <nav className="nav">
-              <Link to='/projects'>Project</Link>
-              <Link to='/blogs'>Blog</Link>
-              <Link to='/contact'>Contact</Link>
+              <Link style={{color: 'white', textDecoration: 'none'}} to='/projects'>Project</Link>
+              <Link style={{color: 'white', textDecoration: 'none'}} to='/blogs'>Blog</Link>
+              <Link style={{color: 'white', textDecoration: 'none'}} to='/contact'>Contact</Link>
 
             </nav>
             <Switch>
-              <Route path="/projects"/>
-              <Route path="/Blog" />
+              <Route exact path="/projects"/>
+              <Route exact path="/Blog" />
               <Route path="/contact"/>
 
             </Switch>
