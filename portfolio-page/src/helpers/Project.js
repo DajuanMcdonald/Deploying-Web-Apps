@@ -25,7 +25,7 @@ export default function Project(props) {
                 <Card.Content>
 
                     <Card.Header dividing as="h3">
-                        {user.name}
+                        {user.name} ({user.login})
                     </Card.Header>
                     <Card.Description>
                         <p key={user.id}>{user.bio}</p>
