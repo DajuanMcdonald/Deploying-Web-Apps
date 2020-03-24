@@ -18,7 +18,10 @@ export default function Contact() {
                     <TextArea />
                 </Form.Field>
                 <Form.Field>
-                    <Checkbox label='I wish to be contacted via email' />
+                    <Checkbox label='Agree to terms' />
+                </Form.Field>
+                <Form.Field>
+                    <Checkbox label='Subscribe to Blogs' />
                 </Form.Field>
                 <Button color='green' type='submit'>Submit</Button>
             </Form>

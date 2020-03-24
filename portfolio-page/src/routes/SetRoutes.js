@@ -1,11 +1,11 @@
-// import React from 'react'
-// import Projects from '../components/Projects';
+import React, { Component } from 'react'
 
-// export default function SetRoutes() {
-//     return (
-//         <div className="project-section">
-//             <Projects/>
-            
-//         </div>
-//     )
-// }
+export default class SetRoutes extends Component {
+    render() {
+        return (
+            <div>
+                
+            </div>
+        )
+    }
+}

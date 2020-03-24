@@ -1,12 +1,17 @@
 import React from 'react';
-import Navigation from './components/NavigationBar';
+// import DashBoard from './components/NavigationBar';
 import './App.css';
+import DashBoard from './components/Dashboard';
 
 function App() {
   return (
     <div className="App-header">
-      <Navigation/>
-    
+      <React.Fragment>
+        <DashBoard />
+
+
+      </React.Fragment>
+
     </div>
   );
 }
