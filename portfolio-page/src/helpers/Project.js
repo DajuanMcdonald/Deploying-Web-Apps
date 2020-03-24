@@ -20,7 +20,7 @@ export default function Project(props) {
         <div className=" card project-card">
 
             <Button disabled>Get a Quote</Button>
-            <Card>
+            <Card raised style={{padding: '2%'}}>
                 <Image src={user.avatar_url} />
                 <Card.Content>
 
@@ -31,6 +31,12 @@ export default function Project(props) {
                         <p key={user.id}>{user.bio}</p>
                         <Card.Meta>Member Since: {moment(user.created_at).year()}</Card.Meta>
                     </Card.Description>
+                    <Card.Content extra>
+                        {user.followers} Followers
+                    </Card.Content>
+                    <Card.Content extra>
+                        {user.public_repos} Repositories
+                    </Card.Content>
 
                 </Card.Content>
                     <Projects />

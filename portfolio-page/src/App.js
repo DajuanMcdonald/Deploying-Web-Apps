@@ -1,46 +1,12 @@
 import React from 'react';
-import { Link, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
+import Navigation from './components/NavigationBar';
 import './App.css';
-// import SetRoutes from './routes/SetRoutes'
-import Project from './helpers/Project'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="nav">
-          Dajuan Mcdonald
-        <Router>
-            <nav className="nav">
-              <Link style={{color: 'white', textDecoration: 'none'}} to='/projects'>Project</Link>
-              <Link style={{color: 'white', textDecoration: 'none'}} to='/blogs'>Blog</Link>
-              <Link style={{color: 'white', textDecoration: 'none'}} to='/contact'>Contact</Link>
-
-            </nav>
-            <Switch>
-              <Route exact path="/projects"/>
-              <Route exact path="/Blog" />
-              <Route path="/contact"/>
-
-            </Switch>
-
-
-          </Router>
-
-
-
-
-        </div>
-
-      </header>
-
-      
-
-
-      <Project/>
-      {/* <SetRoutes/> */}
-
+    <div className="App-header">
+      <Navigation/>
+    
     </div>
   );
 }
