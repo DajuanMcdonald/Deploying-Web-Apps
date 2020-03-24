@@ -1,11 +1,12 @@
 import React from 'react'
-import { Modal, Header, Button, Icon } from 'semantic-ui-react';
+import { Modal, Header, Button } from 'semantic-ui-react';
+
 
 export default function Projects() {
     return (
         <div className="project-section">
-            <Modal style={{border: '2px solid', margin: '2%', width: '30vw'}}
-            trigger={<Button>Show Project</Button>} closeIcon>
+            
+            <Modal trigger={<Button color='green'>Show Project</Button>} closeIcon>
                 <Modal.Header as="h3">Web Applications: </Modal.Header>
                 <Modal.Content>
                     <Modal.Description>
@@ -21,8 +22,7 @@ export default function Projects() {
 
             </Modal>
 
-            <Modal style={{border: '2px solid', margin: '2%'}}
-             trigger={<Button>Show Blogs</Button>} closeIcon>
+            <Modal trigger={<Button color='blue'>Show Blogs</Button>} closeIcon>
                 <Modal.Header as="h3">Side Projects: </Modal.Header>
                 <Modal.Content image>
                     <Modal.Description>

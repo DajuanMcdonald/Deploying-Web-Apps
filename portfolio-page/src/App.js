@@ -2,7 +2,8 @@ import React from 'react';
 import { Link, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './App.css';
-import SetRoutes from './routes/SetRoutes'
+// import SetRoutes from './routes/SetRoutes'
+import Project from './helpers/Project'
 
 function App() {
   return (
@@ -33,11 +34,12 @@ function App() {
         </div>
 
       </header>
-      <SetRoutes/>
 
       
 
 
+      <Project/>
+      {/* <SetRoutes/> */}
 
     </div>
   );
